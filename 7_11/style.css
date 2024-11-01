@@ -1,33 +1,7 @@
-/* Загальні стилі */
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    padding-top: 60px; /* Відступ, щоб не перекривалася шапка */
-}
 
-/* Стили для навигационной панели */
-.navbar {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
-
-.navbar-brand {
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: #ffc107 !important;
-}
-
-.nav-link {
-    font-size: 1.1rem;
-    color: #f8f9fa !important;
-}
-
-.nav-link:hover {
-    color: #ffc107 !important;
-}
-
-/* Основной контент */
-.container {
-    margin-top: 20px;
+.col-lg-8{
+    background-color: #d06262;
+    color: #b96767;
 }
 
 .display-4 {
@@ -40,9 +14,18 @@ body {
     color: #6c757d;
 }
 
+/* Кнопка */
 .btn-primary {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1rem;
     background-color: #ffc107;
+    color: #fff;
+    text-decoration: none;
     border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
 }
 
 .btn-primary:hover {
@@ -53,10 +36,12 @@ body {
 footer {
     background-color: #343a40;
     color: #f8f9fa;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 40px;
 }
 
 footer p {
     margin: 0;
     font-size: 0.9rem;
-    padding: 15px 0;
 }
