@@ -1,3 +1,7 @@
+body{
+    background-color: #459190;
+}
+
 .navbar {
     background-color: #333; /* Тёмный фон */
     padding: 1rem 0; /* Вертикальные отступы */
@@ -90,4 +94,5 @@ footer {
 footer p {
     margin: 0;
     font-size: 0.9rem;
+    width: 100%;
 }
