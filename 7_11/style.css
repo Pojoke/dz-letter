@@ -1,17 +1,63 @@
+.navbar {
+    background-color: #333; /* Тёмный фон */
+    padding: 1rem 0; /* Вертикальные отступы */
+}
+
+.navbar-brand {
+    color: #ffffff; /* Цвет текста бренда */
+    font-size: 1.5rem; /* Размер текста бренда */
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.navbar-toggler-icon {
+    color: #ffffff;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.navbar-nav .nav-item {
+    margin-left: 1rem; /* Отступы между пунктами меню */
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff; /* Цвет текста навигации */
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    transition: color 0.3s ease-in-out; /* Плавный переход цвета */
+    text-decoration: none;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffcc00; /* Цвет при наведении */
+}
+
+.navbar-nav .nav-link.active {
+    color: #ffcc00; /* Цвет активной ссылки */
+    font-weight: bold;
+}
+
+
+
+
+
+
+
 
 .col-lg-8{
-    background-color: #d06262;
-    color: #b96767;
+    background-color: #459190;
+    color: #ebd9d9;
 }
 
 .display-4 {
     font-size: 2.5rem;
-    color: #343a40;
+    color: #f8f3f3;
 }
 
 .lead {
     font-size: 1.2rem;
-    color: #6c757d;
+    color: #e6e8cd;
 }
 
 /* Кнопка */
@@ -19,8 +65,8 @@
     display: inline-block;
     padding: 10px 20px;
     font-size: 1rem;
-    background-color: #ffc107;
-    color: #fff;
+    background-color: #96885e;
+    color: #f8f3f3;
     text-decoration: none;
     border: none;
     border-radius: 4px;
@@ -35,10 +81,10 @@
 /* Футер */
 footer {
     background-color: #343a40;
-    color: #f8f9fa;
+    color: #d2e74b;
     text-align: center;
     padding: 10px 0;
-    margin-top: 40px;
+    
 }
 
 footer p {
